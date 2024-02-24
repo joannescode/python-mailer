@@ -1,0 +1,12 @@
+[
+    {
+        "subject": "SMTPLib is awesome!",
+        "destiny": "emailtesting@example.com",
+        "content": "I can send mass and automatic emails using SMTP and Python"
+    },
+    {
+        "subject": "SMTPLib is awesome!",
+        "destiny": "emailtesting@example.com",
+        "content": "I can send mass and automatic emails using SMTP and Python"
+    }
+]
