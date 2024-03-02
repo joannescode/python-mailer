@@ -5,6 +5,7 @@ class ManagementEmail:
     def __init__(self) -> None:
         self.address = ""
         self.password = ""
+        self.file_attachment = ""
         self.message = EmailMessage()
         self.smtp = None
 
@@ -22,6 +23,11 @@ class ManagementEmail:
 
     def message_email(self, message):
         self.message.set_content(message)
+        
+    def email_attachment(self, path_file, attachment_name):
+        with open (path_file, "rb") as attachment:
+            self.file_attachment = attachment.read()
+            self.message.add_attachment(self.file_attachment, maintype="application", subtype="octet-stream", filename=attachment_name)
 
     def send_message(self):
 
