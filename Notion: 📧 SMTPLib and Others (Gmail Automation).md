@@ -29,7 +29,7 @@ smtp_username = 'seu_email@gmail.com'
 smtp_password = 'sua_senha'
 ```
 
-1. Iniciamos a conexão e realizamos o login (como se fosse abrir o Gmail e realizar a autenticação).
+2. Iniciamos a conexão e realizamos o login (como se fosse abrir o Gmail e realizar a autenticação).
 
 ```python
 # Criar uma conexão segura com o servidor SMTP do Gmail
@@ -38,7 +38,7 @@ server.starttls()
 server.login(smtp_username, smtp_password)
 ```
 
-1. Preenchemos os campos necessários do e-mail, sendo “Título“, “De“, “Para“ e o corpo do e-mail (desta vez utilizando o EmailMessage).
+3. Preenchemos os campos necessários do e-mail, sendo “Título“, “De“, “Para“ e o corpo do e-mail (desta vez utilizando o EmailMessage).
 
 ```python
 # Criar o objeto de mensagem
