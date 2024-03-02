@@ -1,4 +1,4 @@
-# Automatização de envio de e-mails no Gmail usando Python e SMTPLib
+# SMTPLib e EmailMessage: Automação de envio de e-mails no Gmail
 
 Este é um projeto em desenvolvimento de automatização de envio de e-mails utilizando Python e a biblioteca SMTPLib para interagir com o servidor do Gmail.
 
