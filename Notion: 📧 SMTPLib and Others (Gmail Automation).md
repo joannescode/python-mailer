@@ -211,3 +211,5 @@ Lembrando seu funcionamento, quase que literal, seguimos o mesmo passo a passo q
 5. Opcional: anexamos um arquivo para envio (utilizamos a função add_attachment do EmailMessage mais a lógica necessária para abertura e leitura do anexo).
 6. Enviamos nosso e-mail já com tudo preenchido (utilizamos os parâmetros antes preenchidos para realizar envio).
 7. Realizamos o logout e fechamos o navegador (finalizamos a conexão com o servidor SMTP).
+
+Pronto! Agora conseguiremos enviar vários e-mails de forma automática.
