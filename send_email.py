@@ -1,7 +1,7 @@
 import sys
 
-sys.path.append("youra/path/here")
-from ClassSendEmail.management_email import *
+sys.path.append("your/path/here")
+from libs.management_email import *
 import json
 
 with open("content_email.json", "r") as file:
