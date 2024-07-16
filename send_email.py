@@ -1,7 +1,7 @@
 import sys
 
 sys.path.append("your/path/here")
-from libs.management_email import *
+from src.management_email import *
 import json
 
 with open("content_email.json", "r") as file:
